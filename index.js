@@ -163,8 +163,8 @@ function requestAPI(firstId, resid, authKey, serverOut){
                 ErrorMsg(
                     'JSON parse failed. JSON has been successfully fetched'  + 
                     'at ' + requestUrl + ' , but we cannot parsed the given' +
-                    ' parameter' + param_download + '.' +  
-                    'Full output:\n' + d.toString
+                    ' parameter , specifically ' + param_download + '. ' +  
+                    'Full output:\n' + d.toString()
                     , 503, serverOut
                 )
                 return
