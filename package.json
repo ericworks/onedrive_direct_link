@@ -1,0 +1,31 @@
+{
+  "name": "onedrive_direct_link",
+  "version": "1.0.0",
+  "description": "Generate direct download link from an OneDrive public share.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericworks/onedrive_direct_link.git"
+  },
+  "keywords": [
+    "OneDrive",
+    "Direct",
+    "Link",
+    "NodeJs",
+    "JavaScript"
+  ],
+  "author": "Ericworks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericworks/onedrive_direct_link/issues"
+  },
+  "homepage": "https://github.com/ericworks/onedrive_direct_link#readme",
+  "dependencies": {
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "url": "^0.11.0"
+  }
+}
